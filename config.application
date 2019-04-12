@@ -1,0 +1,11 @@
+server.port=8083
+spring.datasource.test-db1.jdbc-url=jdbc:mysql://127.0.0.1:3306/db_master?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+spring.datasource.test-db1.username=root
+spring.datasource.test-db1.password=123456
+spring.datasource.test-db1.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.test-db2.jdbc-url=jdbc:mysql://127.0.0.1:3306/db_slave1?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+spring.datasource.test-db2.username=root
+spring.datasource.test-db2.password=123456
+spring.datasource.test-db2.driver-class-name=com.mysql.cj.jdbc.Driver
+mybatis.type-aliases-package=com.burgeon.pojo
+eureka.client.service-url.defaultZone=http://localhost:8085/eureka/
